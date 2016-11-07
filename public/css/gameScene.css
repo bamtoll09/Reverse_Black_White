@@ -1,0 +1,100 @@
+/*Definition of map style*/
+body{
+    background-color: #000;
+}
+
+.map{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 0px;
+    padding: 0;
+    overflow: visible;
+    border: none;
+}
+
+.rigid{
+    display: inline-block;
+    border: none;
+}
+
+.mapPart{
+    /*border: 1px solid #000;*/
+    display: inline-block;
+    
+}
+
+.unavailableBlock{
+    background-color: #000;
+}
+
+.availableBlock{
+    background-color: #FFF;
+}
+
+#mapBox{
+    background-color: #000;
+    margin-top: 100px;
+    opacity: 0;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+
+/*Definition of player style*/
+#Player{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+/*Definition of enemy style*/
+.Enemy{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+/*Definition of timer style*/
+#timerBox{
+    width: 150px;
+    height: 80px;
+    background-color: #FFF;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+#letterBox{
+    width: 130px;
+    margin-left: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+.numberBox{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}

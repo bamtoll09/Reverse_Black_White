@@ -1,0 +1,70 @@
+#rankTextImg{
+    width: 80px;
+    height: 40px;
+    margin-left: calc(50% - 40px);
+    margin-top: 10px;
+}
+
+#rankBigBox{
+    width: 500px;
+    height: 600px;
+    margin-left: calc(50% - 250px);
+    margin-top: 20px;
+    background-color: #FFF;
+}
+
+.ranked{
+    width: 400px;
+    height: 45px;
+    margin-left: calc(50% - 200px);
+    margin-top: 10px;
+    background-color: #403D40;
+    padding: 0;
+}
+
+.inRankBar{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFF;
+    font-weight: 900;
+    margin: 0;
+    height: 100%;
+}
+
+.ranked:first-child{
+    margin-top: 30px;
+}
+
+.ranked:last-child{
+    margin-bottom: 30px;
+}
+
+#first{
+    background-color: #FFF260;
+}
+
+#second{
+    background-color: #7E767F;
+}
+
+#third{
+    background-color: #FFA41F;
+}
+
+#rank{
+    width: 100px;
+}
+
+#rank:first-letter{
+    font-size: 30px;
+}
+
+#name{
+    width: 180px;
+    text-align:left;
+}
+
+#time{
+    width: 100px;
+}

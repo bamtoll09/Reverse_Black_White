@@ -1,0 +1,46 @@
+#titleImg{
+    width: 350px;
+    height: 100px;
+    margin-left: calc(50% - 175px);
+    margin-top: 8%;
+}
+
+#buttonBox{
+    width: 300px;
+    height: 350px;
+    background-color: #FFF;
+    margin-left: calc(50% - 150px);
+    margin-top: 30px;
+}
+
+.button{
+    width: 250px;
+    height: 60px;
+    background-color: #000;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin-left: calc(50% - 125px);
+    margin-bottom: 20px;
+}
+
+.button:first-child{
+    margin-top: 25px;
+}
+
+.button:nth-child(3){
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.button:last-child{
+    margin-bottom: 25px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #7C7A7F;
+    color: #000;
+}

@@ -1,0 +1,57 @@
+#creditTextImg{
+    width: 170px;
+    height: 40px;
+    margin-left: calc(50% - 85px);
+    margin-top: 120px;
+}
+
+#nameBox{
+    width: 500px;
+    height: 300px;
+    margin-left: calc(50% - 250px);
+    margin-top: 20px;
+    background-color: #FFF;
+}
+
+.nameBar{
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.nameBar:nth-child(even){
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+.nameBar:first-child{
+    margin-left: calc(50% - 100px);
+    margin-top: 30px;
+}
+
+.nameBar:nth-child(4 + n){
+    margin-bottom: 30px;
+}
+
+.inNameBar{
+    text-align: center;
+    color: #FFF;
+    height: 100%;
+}
+
+.role{
+    width: 100px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.name{
+    width: 90px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 60px;
+}
